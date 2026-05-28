@@ -274,6 +274,27 @@ Passwords are hashed with `bcryptjs` before saving.
 | `preview` | `npm run preview` | Previews the production build locally. |
 
 ## 🖼 Screenshots
+![image alt](https://github.com/titoo9201/medicarehub/blob/bbfe73c471c607db784685252ee5f896d0e99176/Screenshot%202026-05-29%20003309.png)
+
+![image alt](https://github.com/titoo9201/medicarehub/blob/bbfe73c471c607db784685252ee5f896d0e99176/Screenshot%202026-05-29%20003413.png)
+
+![image alt](https://github.com/titoo9201/medicarehub/blob/ab0101979e4816a598042fd20cae2b7fddca8a10/Screenshot%202026-05-29%20003443.png)
+
+![image alt](https://github.com/titoo9201/medicarehub/blob/ab0101979e4816a598042fd20cae2b7fddca8a10/Screenshot%202026-05-29%20003504.png)
+
+![image alt](https://github.com/titoo9201/medicarehub/blob/ab0101979e4816a598042fd20cae2b7fddca8a10/Screenshot%202026-05-29%20003515.png)
+
+![image alt](https://github.com/titoo9201/medicarehub/blob/ab0101979e4816a598042fd20cae2b7fddca8a10/Screenshot%202026-05-29%20003620.png)
+
+![image alt](https://github.com/titoo9201/medicarehub/blob/ab0101979e4816a598042fd20cae2b7fddca8a10/Screenshot%202026-05-29%20003637.png)
+
+![image alt](https://github.com/titoo9201/medicarehub/blob/ab0101979e4816a598042fd20cae2b7fddca8a10/Screenshot%202026-05-29%20003652.png)
+
+![image alt](https://github.com/titoo9201/medicarehub/blob/ab0101979e4816a598042fd20cae2b7fddca8a10/Screenshot%202026-05-29%20003701.png)
+
+![image alt](https://github.com/titoo9201/medicarehub/blob/ab0101979e4816a598042fd20cae2b7fddca8a10/Screenshot%202026-05-29%20003733.png)
+
+![image alt](https://github.com/titoo9201/medicarehub/blob/ab0101979e4816a598042fd20cae2b7fddca8a10/Screenshot%202026-05-29%20003745.png)
 
 
 ## 🌐 Live Demo
