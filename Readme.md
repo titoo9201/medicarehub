@@ -40,25 +40,7 @@ MediCare Hub streamlines prescription handling by letting doctors create, update
 - JWT stored in localStorage on the client
 - Bearer token auth sent through Axios interceptors
 
-## 🏗 Architecture Overview
 
-MediCare Hub uses a two-part architecture:
-
-1. The React frontend handles routing, forms, dashboards, and UI state.
-2. The Express backend exposes REST APIs, validates JWTs, and reads/writes data in MongoDB.
-3. Authenticated requests are sent with a Bearer token from localStorage.
-4. Backend middleware verifies the token and applies doctor-only access where needed.
-5. Prescription history and patient records are derived directly from MongoDB queries.
-
-```mermaid
-flowchart LR
-	Browser[User Browser] --> Frontend[React + Vite Frontend]
-	Frontend -->|Axios + Bearer Token| API[Express REST API]
-	API --> Auth[JWT Auth Middleware]
-	API --> Mongo[(MongoDB / Atlas)]
-	Mongo --> API
-	API --> Frontend
-```
 
 ### Core Workflow
 
@@ -293,12 +275,6 @@ Passwords are hashed with `bcryptjs` before saving.
 
 ## 🖼 Screenshots
 
-Add project screenshots here when available:
-
-- Home page: `./screenshots/home-page.png`
-- Doctor dashboard: `./screenshots/doctor-dashboard.png`
-- Patient dashboard: `./screenshots/patient-dashboard.png`
-- Prescription history: `./screenshots/prescription-history.png`
 
 ## 🌐 Live Demo
 
