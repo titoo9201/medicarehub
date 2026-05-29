@@ -299,7 +299,7 @@ Passwords are hashed with `bcryptjs` before saving.
 
 ## 🌐 Live Demo
 
-Live demo link: _coming soon_
+Live demo link: https://medicarehub-app.onrender.com/
 
 
 
