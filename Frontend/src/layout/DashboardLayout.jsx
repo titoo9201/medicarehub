@@ -7,9 +7,9 @@ function DashboardLayout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const user = JSON.parse(localStorage.getItem("user") || "null");
 
-  const handleLogout = () => {
-    localStorage.clear();
-    window.location.href = "/login";
+  const handleLogout = async () => {
+    localStorage.removeItem("user");
+    navigate("/", { replace: true });
   };
 
   const doctorLinks = [
